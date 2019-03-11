@@ -27,3 +27,4 @@ echo -e "\e[31;43m***** TOP 5 MEMORY-CONSUMING PROCESSES *****\e[0m"
 ps -eo %mem,%cpu,comm --sort=-%mem | head -n 6
 echo ""
 echo -e "\e[1;32mDone.\e[0m"
+echo "user need password change\e:input "passwd username"\e""
